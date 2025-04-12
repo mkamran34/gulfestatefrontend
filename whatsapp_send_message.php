@@ -47,7 +47,7 @@ if(!empty($phone) AND !empty($name) <> '') {
     
 }else{
     
-    echo 'Data missing.';
+    echo 'Please chec the Data is missing.';
     
 }
 
