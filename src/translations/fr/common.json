@@ -1,0 +1,268 @@
+{
+  "HomePage": {
+    "heroOne": "RÉALISER LES RÊVES",
+    "herotwo": "EN ADRESSES",
+    "heroSub": "Trouvez la propriété de vos rêves avec Gulf Estates, où nos conseils d'experts vous connecteront à la propriété de vos rêves. Partons ensemble à la recherche de votre propriété idéale !",
+    "aboutHeroOne": "VOTRE PARTENAIRE IMMOBILIER",
+    "aboutHeroTwo": "DE CONFIANCE À DUBAÏ.",
+    "aboutHeroText": "Bienvenue chez Gulf Estates, où votre rêve de trouver une propriété à Dubaï devient réalité. Nos services assurent la connexion entre les investisseurs et les utilisateurs finaux avec les meilleures propriétés disponibles sur le marché.",
+    "lookingHero": "Je cherche à ...",
+    "lookingCardOne": {
+      "heading": "acheter une propriété",
+      "text": "Explorez avec nous les plus belles propriétés de Dubaï qui correspondent à votre budget et à votre style."
+    },
+    "lookingCardTwo": {
+      "heading": "vendre une propriété",
+      "text": "Prêt à vendre votre propriété en toute confiance ? Bénéficiez de nos conseils d'experts et de nos connaissances du marché pour une expérience de vente sans souci !"
+    },
+    "lookingCardThree": {
+      "heading": "louer une propriété",
+      "text": "Trouvez le loyer idéal qui répond à tous vos besoins. Contactez-nous pour une location de propriété sans tracas."
+    },
+    "lookFooter": {
+      "heading": "POSSEDEZ UNE PROPRIÉTÉ DANS UN PARADIS FISCAL",
+      "text": "Gulf Estates est votre partenaire pour trouver la propriété parfaite à Dubaï. Nous sommes spécialisés dans l'achat, la vente et la location de biens immobiliers. Nos services sont adaptés à vos besoins uniques. Laissez-nous vous aider car vos rêves immobiliers - notre réalité. Prenez rendez-vous dès aujourd'hui !"
+    },
+    "setApart": {
+      "heading": "ce qui nous distingue",
+      "pointOne": {
+        "heading": "EXPERTISE PROUVÉE",
+        "text": "L'expertise que nos professionnels apportent vous aidera à prendre des décisions non seulement confiantes mais aussi offrant un retour sur investissement élevé."
+      },
+      "pointTwo": {
+        "heading": "SOLUTIONS PERSONNALISÉES",
+        "text": "Chez Gulf Estates, nous prenons le temps de comprendre vos goûts uniques afin de trouver la propriété parfaite qui correspond à vos besoins."
+      },
+      "pointThree": {
+        "heading": "PARTENARIATS TRANSPARENTS",
+        "text": "La transparence est ce en quoi nous croyons chez Gulf Estates. Nous croyons en une communication ouverte et honnête à chaque étape de votre parcours d'achat."
+      }
+    },
+    "ContactPart": {
+      "headingOne": "PENSEZ ZÉRO IMPÔT IMMOBILIER.",
+      "headingTwo": "PENSEZ DUBAÏ.",
+      "text": "Vous rêvez d'une nouvelle propriété ou cherchez le parfait investissement ? Notre équipe est là pour vous aider à chaque étape. Contactez-nous dès aujourd'hui et concrétisons votre projet !"
+    }
+  },
+  "Properties": {
+    "heroOne": "Parcourez notre vaste",
+    "herotwo": "liste de propriétés",
+    "semiHero": "NOS PROPRIÉTÉS",
+    "semiText": "Explorez une gamme variée de propriété, des appartements confortables aux vastes domaines.",
+    "areaHero": "Zones populaires",
+    "areaText": "Découvrez les meilleurs quartiers et communautés de notre région."
+  },
+  "AboutPage": {
+    "AboutHero": {
+      "heading": "Un Héritage de Confiance en Immobilier",
+      "text": "Nous vous accompagnons à chaque étape de votre parcours immobilier, rendant le processus d'achat, de vente ou d'investissement sans tracas. Notre approche personnalisée et notre expertise vous aideront à concrétiser vos ambitions immobilières et à poser les bases de votre succès."
+    },
+    "AboutSection": {
+      "headingOne": "NOTRE HISTOIRE",
+      "headingTwo": "À PROPOS DE GULF ESTATES",
+      "textOne": "Bienvenue chez Gulf Estates, où votre rêve de trouver une propriété à Dubaï devient réalité. Nos services assurent la connexion entre l'acheteur idéal et les meilleures propriétés disponibles sur le marché.",
+      "textTwo": "Notre mission est de fournir des services immobiliers professionnels et sans faille aux personnes recherchant le luxe, le confort et un investissement sûr. Nous croyons en la transparence avec nos clients, avec un engagement sincère.",
+      "textThree": "Notre vision ne se limite pas à trouver la bonne propriété pour notre client, mais à laisser une impression durable. Nous les guidons à chaque étape de leur parcours d'achat immobilier. Nous aidons nos clients à prendre des décisions éclairées et confiantes sur le marché.",
+      "textFour": "Nos professionnels expérimentés possèdent une compréhension approfondie du marché immobilier de Dubaï. Notre connaissance experte combinée à un service personnalisé offre une expérience d'achat unique. Laissez-nous être votre partenaire de confiance pour trouver la propriété que vous pourrez appeler chez vous !"
+    }
+  },
+  "Services": {
+    "Hero": {
+      "headingOne": "VOTRE CHEMIN VERS",
+      "headingTwo": "LE SUCCÈS DE L'INVESTISSEMENT",
+      "text": "Nous vous accompagnons à chaque étape de votre parcours immobilier, rendant le processus d'achat, de vente ou d'investissement sans tracas. Notre approche personnalisée et notre expertise vous aideront à concrétiser vos ambitions immobilières et à poser les bases de votre succès."
+    },
+    "section": {
+      "Herotext": "CE QUE NOUS FAISONS",
+      "Cards": {
+  "CardOne": {
+    "heading": "ACHETER UNE NOUVELLE PROPRIÉTÉ",
+    "text": "Avec une vaste sélection de propriétés sur le marché immobilier de Dubaï, Gulf Estates s'engage à vous aider à découvrir l'opportunité idéale pour un investissement judicieux.",
+    "button": "Trouver Une Propriété"
+  },
+  "CardTwo": {
+    "heading": "VENDRE UNE PROPRIÉTÉ",
+    "text": "Avec un support rapide, Gulf Estates vous aide à vendre facilement votre propriété à des acheteurs potentiels.",
+    "button": "Soumettre Une Propriété"
+  },
+  "CardThree": {
+    "heading": "LOUER UNE PROPRIÉTÉ",
+    "text": "Avec des recherches personnalisées et des filtres avancés, Gulf Estates garantit que vous trouvez sans effort une propriété qui correspond à votre budget et à vos préférences.",
+    "button": "Trouver Une Propriété"
+  }
+}
+
+    },
+    "Owner": {
+      "heading": "DEVENEZ INVESTISSEUR",
+      "text": "Contactez Gulf Estates pour les meilleures propriétés."
+    }
+  },
+  "faqsection": {
+    "hero": {
+      "image_alt": "Image principale",
+      "title_line1": "VOTRE PARTENAIRE",
+      "title_line2": "IMMOBILIER",
+      "title_line3": "DE CONFIANCE À DUBAI"
+    },
+    "faq": {
+      "section_title": "Questions Fréquemment Posées",
+      "docs_required": {
+        "question": "Quels documents sont nécessaires pour obtenir une pré-approbation?",
+        "answer": "Les documents requis peuvent varier selon votre situation, mais nos conseillers en prêts hypothécaires pourront en discuter avec vous. En général, nous aurons besoin des documents suivants pour votre prêt hypothécaire : Copie de votre passeport, visa et carte d'identité Emirates; Certificat de salaire adressé à 'Mortgage Finder'; Fiches de paie et relevés bancaires des six derniers mois; Derniers relevés de carte de crédit; Justificatif de domicile actuel – copie de la facture DEWA ou du contrat de location."
+      },
+      "bank_choice": {
+        "question": "Quelle banque devrais-je choisir ?",
+        "answer": "Au début, vous n'avez pas besoin de choisir, mais laissez-nous vous expliquer pourquoi. En vous adressant directement à une banque, ils n'auront pas nécessairement la meilleure offre de prêt hypothécaire pour votre situation et ils se concentreront sur vous montrer les avantages de leur produit. Si vous consultez un courtier en prêts hypothécaires, comme Mortgage Finder, notre équipe est en mesure d'examiner les produits de prêts hypothécaires dans tout l'Émirats arabes unis de différentes banques pour vous offrir le meilleur pour votre situation et également de vous en partager les avantages et les inconvénients, afin que vous puissiez prendre une décision éclairée."
+      },
+      "insurance": {
+        "question": "Dois-je souscrire à une assurance vie et une assurance bâtiment ?",
+        "answer": "Les assurances vie et bâtiment sont nécessaires dans tous les cas. Sans cela, vous n'obtiendrez pas de prêt hypothécaire."
+      },
+      "non_resident": {
+        "question": "Puis-je obtenir un prêt hypothécaire si je vis en dehors des Émirats ?",
+        "answer": "Oui, il est possible d'obtenir un prêt hypothécaire aux Émirats même si vous vivez en dehors du pays. Les non-résidents peuvent être tenus de fournir un acompte de 50%."
+      },
+      "pre_approval": {
+        "question": "Combien de temps faudra-t-il pour obtenir ma pré-approbation ?",
+        "answer": "Le processus de pré-approbation du prêt hypothécaire est la première étape pour obtenir un prêt et peut prendre jusqu'à 5 jours ouvrables. Cependant, il est important de noter que l'obtention de la pré-approbation peut prendre plus de temps selon la banque utilisée et la complexité de votre dossier. Une fois la pré-approbation obtenue et que vous vous êtes décidé sur le bien que vous souhaitez acheter, nous gérons le reste du processus en votre nom jusqu'à la finalisation."
+      },
+      "missed_payment": {
+        "question": "Que se passe-t-il si je manque un paiement de mon prêt hypothécaire ?",
+        "answer": "Si vous ne remboursez pas la dette dans le délai imparti, la banque vous demandera également de payer une pénalité. Elle est calculée à compter du jour suivant la date d'échéance du paiement. Le dépôt d'une action en justice et la saisie du bien sont des mesures extrêmes. La banque y aura recours si l'emprunteur ne rembourse pas la dette pendant une période prolongée."
+      },
+      "payment_struggle": {
+        "question": "Que dois-je faire si je commence à avoir des difficultés pour rembourser mon prêt hypothécaire ?",
+        "answer": "Les banques font souvent de leur mieux pour soutenir l'emprunteur et il peut y avoir des plans/arrangements que vous pouvez négocier pour gérer la situation. Cependant, dans tous les cas, il est important de les contacter le plus tôt possible pour éviter les pénalités et les retards de paiement. Les circonstances suivantes sont considérées comme des motifs valables pour que les banques envisagent d'offrir de l'aide : Réduction ou cessation d'emploi pour raisons de santé ou fermeture de l'entreprise. Baisse de salaire. Dépenses médicales forcées pour l'emprunteur ou sa famille. Situations d'urgence provoquant des dommages financiers importants."
+      },
+      "early_closure": {
+        "question": "Puis-je clôturer le prêt hypothécaire avant l'échéance ?",
+        "answer": "En général, la plupart des banques factureront une pénalité pour le remboursement anticipé du prêt hypothécaire, mais cela variera d'une banque à l'autre. Dans la plupart des cas, la pénalité se situera entre 0% et 3% du solde restant du prêt, mais cela dépendra si le prêt est remboursé avec vos propres fonds, s'il est vendu ou s'il est refinancé par une autre banque."
+      }
+    }
+  },
+
+  "navbar": {
+    "properties": "Propriétés",
+    "about": "À propos de nous",
+    "services": "Services",
+    "contact": "Contactez-nous",
+    "blogs": "Blogs",
+    "find_properties": "Trouver des propriétés",
+    "logo_alt": "Logo"
+  },
+  "footer": {
+    "buy_property": {
+      "title": "Nos Propriétés",
+      "links": {
+        "properties_for_sale": "Trouver des propriétés"
+      }
+    },
+    "company": {
+      "title": "Entreprise",
+      "links": {
+        "about_us": "À propos de nous",
+        "services": "Services",
+         "privacypolicy": "politique de confidentialité",
+        "termsandcondition": "Termes et conditions"
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "links": {
+        "general_enquiry": "Renseignement général",
+        "privacy_policy": "Politique de confidentialité"
+      }
+    },
+    "brand_name": "Gulf Sea Real Estate LLC",
+    "brand_description": "Découvrez votre propriété de rêve avec notre accompagnement d'experts et nos listings complets de propriétés.",
+    "copyright": "Tous droits réservés.",
+    "social": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn"
+    }
+  },
+  "leader": {
+    "headers": {
+      "leadership": "DIRECTION",
+      "meetOurTeam": "RENCONTREZ NOTRE ÉQUIPE"
+    },
+    "positions": {
+      "salesManager": "Directeur Commercial",
+      "businessDevelopmentManager": "Responsable du Développement Commercial",
+      "propertyAdvisor": "Conseiller Immobilier",
+      "adminCoordinator": "Coordinateur Administratif",
+      "customerServiceExecutive": "Responsable Service Client",
+      "cinematographer": "Cinéaste",
+      "captain": "Capitaine"
+    }
+  },
+  "contact": {
+    "form": {
+      "headers": {
+        "getInTouch": "CONTACTEZ-NOUS"
+      },
+      "placeholders": {
+        "name": "Nom",
+        "email": "Email",
+        "phone": "Numéro de téléphone",
+        "message": "Message"
+      },
+      "buttons": {
+        "sendMessage": "Envoyer le message"
+      },
+      "messages": {
+        "success": "Message envoyé avec succès !",
+        "error": "Échec de l'envoi du message. Veuillez réessayer.",
+        "serverError": "Une erreur s'est produite. Veuillez réessayer plus tard."
+      },
+      "alt": {
+        "contactFormBackground": "Arrière-plan du formulaire de contact"
+      }
+    },
+    "footer": {
+      "headers": {
+        "contactUs": "NOUS CONTACTER",
+        "address": "ADRESSE",
+        "workingHours": "HEURES D'OUVERTURE",
+        "information": "INFORMATIONS",
+        "followUs": "SUIVEZ-NOUS"
+      },
+      "content": {
+        "address": "602, Tour d'affaires Al Habtoor, Dubai Marina, B.P. 74461, Dubaï, Émirats Arabes Unis",
+        "workingHours": "Lundi - Samedi (09h00 - 18h00 GST)"
+      },
+      "ariaLabels": {
+        "instagram": "Instagram",
+        "linkedin": "LinkedIn",
+        "facebook": "Facebook"
+      },
+      "alt": {
+        "buildingImage": "Immeuble"
+      }
+    },
+    "bottom": {
+      "heroOne": "FAITES DES INVESTISSEMENTS ÉCLAIRÉS",
+      "heroTwo": "AVEC GULF ESTATES."
+    }
+  },
+  "buttons": {
+    "Readmore": "En savoir plus",
+    "ContactUs": "Contactez-nous",
+    "AboutUs": "À propos de nous"
+  },
+  "blogs": {
+    "heading": "Découvrez Nos Dernières Analyses",
+    "subHeading": "Analyses d'experts et guides pour le marché immobilier de Dubaï"
+  },
+  "CEO": {
+  "header": "MESSAGE DU PDG",
+  "position": "Directeur Général",
+  "text1": "En tant qu'entrepreneurs de longue date aux Émirats Arabes Unis depuis plus de deux décennies, nous avons conçu des projets qui symbolisent le dynamisme et l'ambition de cette région. Gulf Estates reflète notre passion pour l'excellence et notre effort pour redéfinir la satisfaction des clients dans le marché immobilier des Émirats Arabes Unis.",
+  "text2": "Notre mission est à la fois simple et profonde : connecter nos clients avec les propriétés de leurs rêves, qu'il s'agisse d'une résidence de luxe, d'un investissement stratégique bien planifié ou d'un lieu à appeler chez soi. Nos experts chez Gulf Estates associent une connaissance approfondie du marché à une approche centrée sur le client pour offrir une valeur exceptionnelle et des conseils de confiance dans l'un des marchés immobiliers les plus dynamiques au monde.",
+  "text3": "Dans un océan d'opportunités infinies, notre équipe est ravie d'être votre partenaire pour libérer ce potentiel. Merci de placer votre confiance en Gulf Estates.",
+  "text4": ""
+}
+
+}

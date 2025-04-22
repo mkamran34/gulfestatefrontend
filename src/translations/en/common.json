@@ -1,0 +1,266 @@
+{
+  "HomePage": {
+    "heroOne": "TURNING DREAMS",
+    "herotwo": "INTO ADDRESSES",
+    "heroSub": "Find your dream property with Gulf Estates, where our expert guidance will connect you with the property of your dreams. Let's embark on the journey to find your ideal property!",
+    "aboutHeroOne": "YOUR TRUSTED REAL ESTATE",
+    "aboutHeroTwo": "PARTNER IN DUBAI.",
+    "aboutHeroText": "Welcome to Gulf Estates, where your dream of finding a property in Dubai becomes a reality. Our services ensure connecting the investors and end users to the finest of properties available in the market.",
+    "lookingHero": "i’m looking to ...",
+    "lookingCardOne": {
+      "heading": "buy a property",
+      "text": "Explore the finest properties in Dubai with us that align and suit your budget and style. "
+    },
+    "lookingCardTwo": {
+      "heading": "Sell a property",
+      "text": "Ready to sell your property with confidence? Let our expert advice and market insights give you a seamless selling experience! "
+    },
+    "lookingCardThree": {
+      "heading": "Rent a property",
+      "text": "Find your ideal rent that satisfies all your needs. Contact us for hassle-free property renting."
+    },
+    "lookFooter": {
+      "heading": "OWN PROPERTY IN A TAX HAVEN",
+      "text": "Gulf Estates is your partner in finding the perfect property in Dubai. We specialise in helping you buy, sell, and rent properties. Our services are tailored to your unique needs. Let us help you because your property dreams - our reality. Schedule a call today!"
+    },
+    "setApart": {
+      "heading": "what sets us apart",
+      "pointOne": {
+        "heading": "PROVEN EXPERTISE",
+        "text": "The expertise that our professionals bring to the table will help you to make decisions that are not only confident but also provide a high return on investment."
+      },
+      "pointTwo": {
+        "heading": "CUSTOMISED SOLUTIONS",
+        "text": "At Gulf Estates, we will take time to understand your unique taste so that we can find the perfect property that aligns with your needs."
+      },
+      "pointThree": {
+        "heading": "TRANSPARENT PARTNERSHIPS",
+        "text": "Transparency is what we believe in Gulf Estates. We believe in having open and honest communication at every stage of your buying journey."
+      }
+    },
+    "ContactPart": {
+      "headingOne": "THINK ZERO PROPERTY TAX.",
+      "headingTwo": "THINK DUBAI.",
+      "text": "Dreaming of a new property or seeking the perfect investment? Our team is here to help you every step of the way. Reach out today and let's bring your plan to life!"
+    }
+  },
+  "Properties": {
+    "heroOne": "Browse Our Extensive",
+    "herotwo": "Property Listings",
+    "semiHero": "OUR PROPERTIES",
+    "semiText": "Explore a diverse range of homes, from cozy apartments to spacious estates.",
+    "areaHero": "Popular areas",
+    "areaText": "Discover the best neighborhoods and communities in our region."
+  },
+  "AboutPage": {
+    "AboutHero": {
+      "heading": "A Legacy of Trust in Real Estate",
+      "text": "We assist you with every step of your real estate journey, making the process of buying, selling, or investing hassle-free. Our personalised approach and expertise will help you turn your property ambitions into reality and set the foundation for your success."
+    },
+    "AboutSection": {
+      "headingOne": "OUR STORY",
+      "headingTwo": "ABOUT GULF ESTATES",
+      "textOne": "Welcome to the Gulf Estates, where your dream of finding a property in Dubai becomes a reality. Our services ensure connecting the perfect buyer to the finest of properties available in the market.",
+      "textTwo": "Our mission is to provide seamless and professional real estate services to the people who are seeking luxury, comfort, and a sound investment. We believe in transparency with our clients with a sincere commitment.",
+      "textThree": "Our vision not only includes finding the right property for our client, but to leave a lasting impression. We guide them through every step of their property buying journey. We help our clients to make informed and confident decisions in the market.",
+      "textFour": "Our seasoned professionals possess a deep understanding of Dubai's real estate market. Our expert knowledge combined with personalised service gives a unique buying experience. Let us be your trusted partner in finding the property you can call property!"
+    }
+  },
+  "Services": {
+    "Hero": {
+      "headingOne": "YOUR PATHWAY TO",
+      "headingTwo": "INVESTMENT SUCCESS",
+      "text": "We assist you with every step of your real estate journey, making the process of buying, selling, or investing hassle-free. Our personalised approach and expertise will help you turn your property ambitions into reality and set the foundation for your success."
+    },
+    "section": {
+      "Herotext": "WHAT WE DO?",
+      "Cards": {
+        "CardOne": {
+          "heading": "BUY A NEW PROPERTY",
+          "text": "With an extensive selection of properties in Dubai's real estate market, Gulf Estates is dedicated to helping you discover the perfect opportunity for a smart investment.",
+          "button": "Find A Property"
+        },
+        "CardTwo": {
+          "heading": "SELL A PROPERTY",
+          "text": "With quick support, Gulf Estates will help you seamlessly sell your property to potential buyers.",
+          "button": "Submit A Property"
+        },
+        "CardThree": {
+          "heading": "RENT A PROPERTY",
+          "text": "With tailored searches and advanced filters, Gulf Estates ensures you effortlessly find a property that suits your budget and preferences.",
+          "button": "Find A Property"
+        }
+      }
+    },
+    "Owner": {
+      "heading": "BECOME AN INVESTOR",
+      "text": "Contact Gulf Estates for the finest properties."
+    }
+  },
+  "faqsection": {
+    "hero": {
+      "image_alt": "Hero image",
+      "title_line1": "YOUR TRUSTED",
+      "title_line2": "REAL ESTATE",
+      "title_line3": "PARTNER IN DUBAI"
+    },
+    "faq": {
+      "section_title": "Frequently Asked Questions",
+      "docs_required": {
+        "question": "What documents are required to get pre-approved?",
+        "answer": "Documents required can differ depending on your circumstances, but our mortgage advisors will be able to discuss this with you. In general we will require the following documents for your mortgage: Copy of your passport, visa and Emirates ID; Salary certificate addressed to 'Mortgage Finder'; Last six months payslips and bank statements; Latest credit card statements; Proof of your current address – copy of DEWA bill or tenancy agreement."
+      },
+      "bank_choice": {
+        "question": "Which bank should I choose?",
+        "answer": "At the beginning you don't need to choose, but let us explain why. When approaching a bank directly they will not necessarily have the best mortgage offer for your situation and they will be focused on showing you the benefits of their product. If you consult a mortgage broker, like Mortgage Finder, our team are able to look at mortgage products across the UAE from different banks to offer you the best one for your situation and also share the pros and cons of them with you, so you can make an informed decision."
+      },
+      "insurance": {
+        "question": "Should I get life and building insurances?",
+        "answer": "Life and building insurances are necessary under any circumstances. Without it, you won't be granted a mortgage."
+      },
+      "non_resident": {
+        "question": "Can I get a mortgage if I live outside UAE?",
+        "answer": "Yes, it is possible to get a mortgage in the UAE even if you live outside of the country. Non-residents might be required to provide a 50% down payment."
+      },
+      "pre_approval": {
+        "question": "How long will it take to get my pre-approval?",
+        "answer": "The mortgage pre-approval process is the first step in getting a mortgage and can take up to 5 working days. However, it is worth noting that securing pre-approval may take longer depending on the bank used and the complexity of your case. Once pre-approval has been secured and you have settled on a property that you want to purchase, we manage the rest of the process on your behalf until completion."
+      },
+      "missed_payment": {
+        "question": "What happens if I miss a mortgage payment?",
+        "answer": "If you do not repay the debt within the specified period, the bank will additionally require you to pay a penalty. It is calculated from the day following the payment due date. Filing a lawsuit and property seizure are extreme measures. The bank will resort to them if the borrower does not repay the debt for an extended period of time."
+      },
+      "payment_struggle": {
+        "question": "What should i do if I begin to struggle to repay my mortgage?",
+        "answer": "Banks will often do what they can to support the borrower and there 'may' be plans/arrangements that you can negotiate to help manage the situation. However in all circumstances it is important to get in touch with them as early as possible to avoid penalties and missed payments. The following circumstances are genuinely considered valid reasons for banks to consider offering help: Reduction or termination of employment due to health reasons or company closure. Salary reduction. Forced medical expenses for the borrower or their family. Emergency situations causing significant financial damage."
+      },
+      "early_closure": {
+        "question": "Can I close the mortgage ahead of schedule?",
+        "answer": "In general most banks will charge a penalty for settling the mortgage early, but this will vary from one bank to another. In most cases the penalty will range from 0% – 3% of the outstanding mortgage balance but this will depend on whether the mortgage is being repaid by your own funds, being sold or being refinanced by another bank."
+      }
+    }
+  },
+
+  "navbar": {
+    "properties": "Properties",
+    "about": "About Us",
+    "services": "Services",
+    "contact": "Contact Us",
+    "blogs": "Blogs",
+    "find_properties": "Find Properties",
+    "logo_alt": "Logo"
+  },
+  "footer": {
+    "buy_property": {
+      "title": "Our Properties",
+      "links": {
+        "properties_for_sale": "Find Properties"
+      }
+    },
+    "company": {
+      "title": "Company",
+      "links": {
+        "about_us": "About Us",
+        "services": "Services",
+        "privacypolicy": "Privacy Policy",
+        "termsandcondition": "Terms and Condition"
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "links": {
+        "general_enquiry": "General Enquiry",
+        "privacy_policy": "Privacy Policy"
+      }
+    },
+    "brand_name": "Gulf Sea Real Estate LLC",
+    "brand_description": "Discover your dream property with our expert guidance and comprehensive property listings.",
+    "copyright": "All rights reserved.",
+    "social": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn"
+    }
+  },
+  "leader": {
+    "headers": {
+      "leadership": "LEADERSHIP",
+      "meetOurTeam": "MEET OUR TEAM"
+    },
+    "positions": {
+      "salesManager": "Sales Manager",
+      "businessDevelopmentManager": "Business Development Manager",
+      "propertyAdvisor": "Property Advisor",
+      "adminCoordinator": "Admin Coordinator",
+      "customerServiceExecutive": "Customer Service Executive",
+      "cinematographer": "Cinematographer",
+      "captain": "Captain"
+    }
+  },
+  "contact": {
+    "form": {
+      "headers": {
+        "getInTouch": "GET IN TOUCH WITH US"
+      },
+      "placeholders": {
+        "name": "Name",
+        "email": "Email",
+        "phone": "Phone no",
+        "message": "Message"
+      },
+      "buttons": {
+        "sendMessage": "Send Message"
+      },
+      "messages": {
+        "success": "Message sent successfully!",
+        "error": "Failed to send message. Please try again.",
+        "serverError": "An error occurred. Please try again later."
+      },
+      "alt": {
+        "contactFormBackground": "Contact Form Background"
+      }
+    },
+    "footer": {
+      "headers": {
+        "contactUs": "CONTACT US",
+        "address": "ADDRESS",
+        "workingHours": "WORKING HOURS",
+        "information": "INFORMATION",
+        "followUs": "FOLLOW US"
+      },
+      "content": {
+        "address": "602, Al Habtoor Business Tower, Dubai Marina, P.O. Box 74461, Dubai, United Arab Emirates",
+        "workingHours": "Monday - Saturday (09:00 AM - 06:00 PM GST)"
+      },
+      "ariaLabels": {
+        "instagram": "Instagram",
+        "linkedin": "LinkedIn",
+        "facebook": "Facebook"
+      },
+      "alt": {
+        "buildingImage": "Building"
+      }
+    },
+    "bottom": {
+      "heroOne": "MAKE INFORMED INVESTMENTS",
+      "heroTwo": "WITH GULF ESTATES."
+    }
+  },
+  "buttons": {
+    "Readmore": "Read More",
+    "ContactUs": "Contact Us",
+    "AboutUs": "About Us"
+  },
+  "blogs": {
+    "heading": "Discover Our Latest Insights",
+    "subHeading": "Expert analysis and guides for Dubai's real estate market"
+  },
+  "CEO": {
+    "header": "MESSAGE FROM THE CEO",
+    "position": "Chief Executive Officer",
+    "text1": "Being long-standing entrepreneurs in the UAE for over two decades, we have designed ventures that symbolise the dynamism and ambition of this region. Gulf Estates symbolises a reflection of our passion for excellence and an endeavor to readdress client satisfaction in the real estate market of the UAE.",
+    "text2": "Our mission is simple yet profound: to connect our clients with properties of their dreams, whether it's a luxury residence, a well-planned strategic investment, or a place you can call home. Our experts at Gulf Estates combine extensive market knowledge with a client-first approach to deliver exceptional value and trusted guidance in one of the world's most vibrant real estate markets. ",
+    "text3": "In an ocean of boundless opportunities, our team is truly delighted to be your partners in unlocking the possibilities. Thank you for placing your trust in Gulf Estates.",
+    "text4": ""
+  }
+}
