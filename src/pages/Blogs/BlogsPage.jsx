@@ -76,7 +76,7 @@ const BlogsPage = () => {
 
     // Apply category filter
     if (selectedCategory !== "All") {
-      filtered = filtered.filter(blog => blog.category === selectedCategory);
+      filtered = filtered.filter(blog => blog.category.name === selectedCategory);
     }
 
     // Apply sorting
