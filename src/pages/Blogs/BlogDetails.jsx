@@ -18,6 +18,7 @@ const BlogDetails = () => {
     const fetchBlog = async () => {
       try {
         const response = await axiosInstance.get(`/api/blogs/${id}`);
+        console.log(response.data.blog);
         setBlog(response.data.blog);
         setLoading(false);
       } catch (error) {
@@ -173,14 +174,14 @@ const BlogDetails = () => {
               </h1>
             </div>
           </motion.div>
-          <motion.p
+          {/* <motion.p
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay:  0.1 }}
             className="text-gray-700 mb-6 leading-relaxed"
           >
             {blog.content}
-          </motion.p>
+          </motion.p> */}
 
           {/* {blog.content.map((section, index) => {
             const imageComponent = getImageComponent(index);
@@ -239,6 +240,84 @@ const BlogDetails = () => {
               </React.Fragment>
             );
           })} */}
+          {JSON.parse(blog.content).map((section, index) => {
+  const imageComponent = getImageComponent(index);
+
+  return (
+    <React.Fragment key={index}>
+      {(() => {
+        switch (section.type) {
+          case "heading":
+            return (
+              <motion.h1
+                initial={{ y: 20, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ delay: index * 0.1 }}
+                className="text-4xl font-bold text-[#024959] mb-6"
+              >
+                {section.text}
+              </motion.h1>
+            );
+
+          case "subheading":
+            return (
+              <motion.h2
+                initial={{ y: 20, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ delay: index * 0.1 }}
+                className="text-2xl font-bold text-[#024959] mt-8 mb-4"
+              >
+                {section.text}
+              </motion.h2>
+            );
+
+          case "section":
+            return (
+              <motion.div
+                initial={{ y: 20, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ delay: index * 0.1 }}
+                className="mb-6"
+              >
+                <h3 className="text-xl font-semibold text-[#024959] mb-2">
+                  {section.title}
+                </h3>
+                <p className="text-gray-700 leading-relaxed">
+                  {section.text}
+                </p>
+              </motion.div>
+            );
+
+          case "highlight":
+            return (
+              <motion.div
+                initial={{ y: 20, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ delay: index * 0.1 }}
+                className="bg-[#F2762E]/10 border-l-4 border-[#F2762E] p-4 my-6"
+              >
+                {section.text}
+              </motion.div>
+            );
+
+          default:
+            return (
+              <motion.p
+                initial={{ y: 20, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ delay: index * 0.1 }}
+                className="text-gray-700 mb-6 leading-relaxed"
+              >
+                {section.text}
+              </motion.p>
+            );
+        }
+      })()}
+      {imageComponent}
+    </React.Fragment>
+  );
+})}
+
         </motion.article>
       </section>
       <section>
