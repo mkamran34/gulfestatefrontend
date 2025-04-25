@@ -38,7 +38,6 @@ const BlogDetails = () => {
   }
   if (!blog) {
     <AnimatePresence mode="wait">
-            
               <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
