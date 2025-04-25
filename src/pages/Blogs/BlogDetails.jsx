@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { useParams } from "react-router-dom";
-// import { blogData } from "../../constants";
 import Navbar from "../../components/Navbar";
 import Logo from "/assets/black-logo.svg";
 import Footer from "../../components/Footer";
@@ -10,7 +9,7 @@ import axiosInstance from "../../../api/axiosInstance";
 
 const BlogDetails = () => {
   const { id } = useParams();
-  // const blog = blogData.find((b) => b.id === parseInt(id));
+
   const [blog, setBlog] = useState(null);
   const [loading, setLoading] = useState(true);
 
@@ -174,73 +173,8 @@ const BlogDetails = () => {
               </h1>
             </div>
           </motion.div>
-          {/* <motion.p
-            initial={{ y: 20, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ delay:  0.1 }}
-            className="text-gray-700 mb-6 leading-relaxed"
-          >
-            {blog.content}
-          </motion.p> */}
-
-          {/* {blog.content.map((section, index) => {
-            const imageComponent = getImageComponent(index);
-            
-            return (
-              <React.Fragment key={index}>
-                {(() => {
-                  switch (section.type) {
-                    case "heading":
-                      return (
-                        <motion.h1
-                          initial={{ y: 20, opacity: 0 }}
-                          animate={{ y: 0, opacity: 1 }}
-                          transition={{ delay: index * 0.1 }}
-                          className="text-4xl font-bold text-[#024959] mb-6"
-                        >
-                          {section.text}
-                        </motion.h1>
-                      );
-                    case "subheading":
-                      return (
-                        <motion.h2
-                          initial={{ y: 20, opacity: 0 }}
-                          animate={{ y: 0, opacity: 1 }}
-                          transition={{ delay: index * 0.1 }}
-                          className="text-2xl font-bold text-[#024959] mt-8 mb-4"
-                        >
-                          {section.text}
-                        </motion.h2>
-                      );
-                    case "highlight":
-                      return (
-                        <motion.div
-                          initial={{ y: 20, opacity: 0 }}
-                          animate={{ y: 0, opacity: 1 }}
-                          transition={{ delay: index * 0.1 }}
-                          className="bg-[#F2762E]/10 border-l-4 border-[#F2762E] p-4 my-6"
-                        >
-                          {section.text}
-                        </motion.div>
-                      );
-                    default:
-                      return (
-                        <motion.p
-                          initial={{ y: 20, opacity: 0 }}
-                          animate={{ y: 0, opacity: 1 }}
-                          transition={{ delay: index * 0.1 }}
-                          className="text-gray-700 mb-6 leading-relaxed"
-                        >
-                          {section.text}
-                        </motion.p>
-                      );
-                  }
-                })()}
-                {imageComponent}
-              </React.Fragment>
-            );
-          })} */}
-          {JSON.parse(blog.content).map((section, index) => {
+         
+          {blog.content.map((section, index) => {
   const imageComponent = getImageComponent(index);
 
   return (
