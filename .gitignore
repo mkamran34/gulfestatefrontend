@@ -2,7 +2,7 @@
 node_modules/
 
 # build outputs
-dist/
+# dist/
 
 # system files
 .DS_Store
