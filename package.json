@@ -1,5 +1,6 @@
 {
   "name": "gulf-website",
+  "homepage": "https://test.gulfestates.ae",
   "private": true,
   "version": "0.0.0",
   "type": "module",
