@@ -1,13 +1,32 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import ServiceCard from "../../components/ServiceCard";
 import service1 from "/assets/service1.webp";
 import service2 from "/assets/service2.webp";
 import service3 from "/assets/service3.webp";
 import { Slide } from "react-awesome-reveal";
 import { useTranslation } from 'react-i18next';
+import axiosInstance from "../../api/axiosInstance";
 
 const ServicesSection = () => {
+
+    const [services, setServices] = useState([]);
+
+  useEffect(() => {
+    axiosInstance.get('api/services')
+      .then(response => {
+        console.log('Services', response.data);
+        setServices(response.data.services);
+      })
+      .catch(error => {
+        console.error(error);
+      });
+  }, []);
+
+  const slideDirections = ["up", "right", "down", "left"];
+
   const { t } = useTranslation('common');
+
+
   return (
     <section className="pb-6 overflow-hidden">
       <Slide direction="down">
@@ -16,7 +35,7 @@ const ServicesSection = () => {
         </h1>
       </Slide>
 
-      <div className="flex flex-col lg:flex-row gap-12 justify-center items-center py-6 px-2">
+      {/* <div className="flex flex-col lg:flex-row gap-12 justify-center items-center py-6 px-2">
         <Slide>
           <ServiceCard
             img={service1}
@@ -43,7 +62,19 @@ const ServicesSection = () => {
             button={t('Services.section.Cards.CardThree.button')}
           />
         </Slide>
-      </div>
+      </div> */}
+       <div className="flex flex-col lg:flex-row gap-12 justify-center items-center py-6 px-2">
+      {services.map((service, index) => (
+        <Slide direction={slideDirections[index % slideDirections.length]} key={service.id}>
+          <ServiceCard
+            img={`${service.image}`}
+            heading={service.title}
+            text={service.description}
+            button={service.label}
+          />
+        </Slide>
+      ))}
+    </div>
     </section>
   );
 };
