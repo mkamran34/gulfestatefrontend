@@ -1,7 +1,7 @@
 import React, { useEffect, useState }  from "react";
 import { Slide } from "react-awesome-reveal";
 import { useTranslation } from "react-i18next";
-import axiosInstance from '../../../api/axiosInstance';
+import axiosInstance from '../../api/axiosInstance';
 
 
 const Leadership = () => {

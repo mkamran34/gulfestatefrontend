@@ -23,7 +23,7 @@ import NoPageFound from "./pages/NoPageFound";
 import PrivacyPolicy from "./pages/PrivacyPolicy/PrivacyPolicy";
 import TermsandCondition from "./pages/TermsandCondition/TermsandCondition";
 import DreamProperty from "./pages/Dream-Property/Dream-Property";
-import axiosInstance from "../api/axiosInstance";
+import axiosInstance from "./api/axiosInstance";
 function App() {
   const [screenLoading, setScreenLoading] = useState(false);
 

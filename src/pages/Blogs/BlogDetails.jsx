@@ -5,7 +5,7 @@ import Navbar from "../../components/Navbar";
 import Logo from "/assets/black-logo.svg";
 import Footer from "../../components/Footer";
 import { imageConfigs } from "../../constants/imageConfig";
-import axiosInstance from "../../../api/axiosInstance";
+import axiosInstance from "../../api/axiosInstance";
 
 const BlogDetails = () => {
   const { id } = useParams();

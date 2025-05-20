@@ -7,7 +7,7 @@ import Logo from "/assets/black-logo.svg";
 import Footer from "../../components/Footer";
 import { Search, Filter, X } from "lucide-react";
 import { useTranslation } from 'react-i18next';
-import axiosInstance from "../../../api/axiosInstance";
+import axiosInstance from "../../api/axiosInstance";
 
 // const categories = ["All", "Real Estate", "Investment", "Market Analysis", "Property Guide"];
 
