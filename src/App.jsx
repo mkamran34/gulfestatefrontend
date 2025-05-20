@@ -23,26 +23,8 @@ import NoPageFound from "./pages/NoPageFound";
 import PrivacyPolicy from "./pages/PrivacyPolicy/PrivacyPolicy";
 import TermsandCondition from "./pages/TermsandCondition/TermsandCondition";
 import DreamProperty from "./pages/Dream-Property/Dream-Property";
-import axiosInstance from "./api/axiosInstance";
 function App() {
   const [screenLoading, setScreenLoading] = useState(false);
-
-
-  const [message, setMessage] = useState('');
-
-  useEffect(() => {
-      axiosInstance.get('/api/test-connection')
-          .then(response => {
-              setMessage(response.data.message);
-              console.log('Backend Response:', response.data);
-          })
-          .catch(error => {
-              console.error('API Connection Failed:', error);
-              setMessage('Failed to connect to backend');
-          });
-  }, []);
-
-
 
   useEffect(() => {
     setScreenLoading(true);

@@ -18,11 +18,11 @@ const BlogCard = ({ blog, index }) => {
         <div className="flex items-center space-x-4 mb-4">
           <span className="text-[#F2762E] text-sm flex items-center">
             <Clock size={16} className="mr-1" />
-            {blog.published_at}
+            {blog.readTime}
           </span>
           <span className="text-gray-600 text-sm flex items-center">
             <User size={16} className="mr-1" />
-            {blog.user.name}
+            {blog.author}
           </span>
         </div>
         <h3 className="text-xl font-bold mb-2 text-[#024959]">{blog.title}</h3>
@@ -36,4 +36,4 @@ const BlogCard = ({ blog, index }) => {
   )
 }
 
-export default BlogCard;
+export default BlogCard
