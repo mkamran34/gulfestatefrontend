@@ -7,76 +7,32 @@ import Logo from "/assets/black-logo.svg";
 import Footer from "../../components/Footer";
 import { Search, Filter, X } from "lucide-react";
 import { useTranslation } from 'react-i18next';
-import axiosInstance from "../../api/axiosInstance";
 
-// const categories = ["All", "Real Estate", "Investment", "Market Analysis", "Property Guide"];
+const categories = ["All", "Real Estate", "Investment", "Market Analysis", "Property Guide"];
 
 const BlogsPage = () => {
   const { t } = useTranslation('common');
-  const [categories, setCategories] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState("All");
-  const [blogs, setBlogs] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
-  const [filteredBlogs, setFilteredBlogs] = useState([]);
+  const [filteredBlogs, setFilteredBlogs] = useState(blogData);
   const [sortBy, setSortBy] = useState("latest");
   const [isSearchFocused, setIsSearchFocused] = useState(false);
 
-
   useEffect(() => {
-    const fetchCategories = async () => {
-      try {
-        const res = await axiosInstance.get('/api/categories'); 
-        
-        if (Array.isArray(res.data.categories)) {
-          const dynamicCategories = res.data.categories.map(cat => ({ name: cat.name, id: cat.id }));
-
-          setCategories([{ name: "All", id: "all" }, ...dynamicCategories]); 
-          
-        } else {
-          console.error("API response categories is not an array:", res.data.categories);
-        }
-      } catch (err) {
-        console.error("Failed to load categories:", err);
-      }
-    };
-
-    fetchCategories();
-  }, []);
-
-
-  useEffect(() => {
-    const fetchBlogs = async () => {
-      try {
-        const response = await axiosInstance.get("/api/blogs"); 
-        console.log("blogs", response.data.blogs);
-        setBlogs(response.data.blogs); 
-        setFilteredBlogs(response.data.blogs); 
-      } catch (error) {
-        console.error("Error fetching blogs:", error);
-      }
-    };
-
-    fetchBlogs();
-  }, []);
-
-
-
-  useEffect(() => {
-    let filtered = [...blogs];
+    let filtered = [...blogData];
 
     // Apply search filter
     if (searchTerm) {
       filtered = filtered.filter(
         blog =>
-          blog.title.toLowerCase().includes(searchTerm.toLowerCase())
-        // ||
-        //   blog.excerpt.toLowerCase().includes(searchTerm.toLowerCase())
+          blog.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+          blog.excerpt.toLowerCase().includes(searchTerm.toLowerCase())
       );
     }
 
     // Apply category filter
     if (selectedCategory !== "All") {
-      filtered = filtered.filter(blog => blog.category.name === selectedCategory);
+      filtered = filtered.filter(blog => blog.category === selectedCategory);
     }
 
     // Apply sorting
@@ -101,7 +57,7 @@ const BlogsPage = () => {
         scrollbg={"[#024959]"}
         logo={Logo}
       />
-
+      
       <section className="pt-20 min-h-screen bg-gray-50">
         <div className="container mx-auto px-4 py-12">
           <motion.div
@@ -110,10 +66,10 @@ const BlogsPage = () => {
             className="max-w-2xl mx-auto text-center mb-12"
           >
             <h1 className="text-4xl font-bold text-[#024959] mb-4">
-              {t('blogs.heading')}
+            {t('blogs.heading')}
             </h1>
             <p className="text-gray-600">
-              {t('blogs.subHeading')}
+            {t('blogs.subHeading')}
             </p>
           </motion.div>
 
@@ -127,8 +83,9 @@ const BlogsPage = () => {
             <div className="bg-white rounded-2xl shadow-lg p-6 mb-8">
               {/* Search Bar */}
               <div className="relative mb-6">
-                <div className={`relative transition-all duration-300 ${isSearchFocused ? "ring-2 ring-[#024959]" : ""
-                  }`}>
+                <div className={`relative transition-all duration-300 ${
+                  isSearchFocused ? "ring-2 ring-[#024959]" : ""
+                }`}>
                   <input
                     type="text"
                     placeholder="Search articles..."
@@ -156,19 +113,20 @@ const BlogsPage = () => {
                   <Filter size={18} />
                   <span>Filters:</span>
                 </div>
-
+                
                 {/* Category Pills */}
                 <div className="flex flex-wrap gap-2">
                   {categories.map((category) => (
                     <button
-                      key={category.id} 
-                      onClick={() => setSelectedCategory(category.name)} 
-                      className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${selectedCategory === category.name
+                      key={category}
+                      onClick={() => setSelectedCategory(category)}
+                      className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
+                        selectedCategory === category
                           ? "bg-[#024959] text-white"
                           : "bg-gray-100 text-gray-600 hover:bg-gray-200"
-                        }`}
+                      }`}
                     >
-                      {category.name} 
+                      {category}
                     </button>
                   ))}
                 </div>
@@ -199,8 +157,8 @@ const BlogsPage = () => {
                   <motion.div
                     key={blog.id}
                     initial={{ opacity: 0, y: 20 }}
-                    animate={{
-                      opacity: 1,
+                    animate={{ 
+                      opacity: 1, 
                       y: 0,
                       transition: { delay: index * 0.1 }
                     }}
@@ -238,7 +196,7 @@ const BlogsPage = () => {
           </AnimatePresence>
         </div>
       </section>
-
+      
       <section>
         <Footer />
       </section>
