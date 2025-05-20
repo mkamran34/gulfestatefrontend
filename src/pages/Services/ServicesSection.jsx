@@ -4,7 +4,7 @@ import ServiceCard from "../../components/ServiceCard";
 // import service2 from "/assets/service2.webp";
 // import service3 from "/assets/service3.webp";
 import { Slide } from "react-awesome-reveal";
-import axiosInstance from "../../../api/axiosInstance";
+import axiosInstance from "../../api/axiosInstance";
 import { useTranslation } from 'react-i18next';
 
 
