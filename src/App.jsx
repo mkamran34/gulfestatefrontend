@@ -23,14 +23,29 @@ import NoPageFound from "./pages/NoPageFound";
 import PrivacyPolicy from "./pages/PrivacyPolicy/PrivacyPolicy";
 import TermsandCondition from "./pages/TermsandCondition/TermsandCondition";
 import DreamProperty from "./pages/Dream-Property/Dream-Property";
+import axiosInstance from "./api/axiosInstance";
+
 function App() {
   const [screenLoading, setScreenLoading] = useState(false);
+  const [message, setMessage] = useState('');
 
   useEffect(() => {
     setScreenLoading(true);
     setTimeout(() => {
       setScreenLoading(false);
     }, 2500);
+  }, []);
+
+  useEffect(() => {
+    axiosInstance.get('/api/test-connection')
+      .then(response => {
+        setMessage(response.data.message);
+        console.log('Backend Response:', response.data);
+      })
+      .catch(error => {
+        console.error('API Connection Failed:', error);
+        setMessage('Failed to connect to backend');
+      });
   }, []);
 
   const Wrapper = ({ children }) => {
@@ -61,7 +76,7 @@ function App() {
                   <Route path="/blogs" element={<BlogsPage />} />
                   <Route path="/blog/:id" element={<BlogDetails />} />
                   <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-                  <Route path="/why-dubai-espanol" element={<DreamProperty/>} />
+                  <Route path="/why-dubai-espanol" element={<DreamProperty />} />
                   <Route
                     path="/terms-and-conditions" element={<TermsandCondition />}
                   />
